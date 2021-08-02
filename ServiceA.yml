@@ -1,1 +1,10 @@
 greeting: Hello from Service A
+
+server:
+  port: 8090
+
+management:
+  endpoints: 
+    web: 
+      exposure:
+        include: refresh
